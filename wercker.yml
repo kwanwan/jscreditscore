@@ -103,7 +103,7 @@ functional-test:
               fi
               sleep 1
 
-ui-functional-test:
+rest-functional-test:
   box:
     id: peternagy/wercker-protractor-headless:chrome59-1
   steps:
